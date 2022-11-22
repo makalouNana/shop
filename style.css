@@ -287,20 +287,29 @@ i{
 
    .Image1{
     background-image: url('./tof/05e36463-7f7d-4cbd-b246-e7e1a804bffa\ 1\ \(1\).png');
+    background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
+
    }
    .Image2{
     background-image: url('./tof/macbook-air-space-gray-select-201810\ 1.png');
-     background-position: center;
+    background-position: center;
+     background-size: contain;
      background-repeat: no-repeat;
+
    }
    .Image3{
     background-image: url('./tof/MKU83_VW_34FR+watch-41-alum-midnight-cell-7s_VW_34FR_WF_CO\ 1.png');
      background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
    }
    .Image4{
     background-image: url('./tof/05e36463-7f7d-4cbd-b246-e7e1a804bffa\ 1.png');
      background-position: center;
+     background-size: contain;
+     background-repeat: no-repeat;
    }
    /*****************/
 
@@ -332,9 +341,12 @@ i{
 
 
    
-@media (max-width: 800px){
- .singleProduct{
-    width: 80%;
+@media (max-width: 1150px){
+ body{
+    justify-content: flex-start;
+ }
+    .singleProduct{
+    width: 95%;
  }
  .option{
     width: 90%;
@@ -343,6 +355,21 @@ i{
     position: fixed;
     right: 20px;
     top: 75px;
+     width: 55px !important;
 }
+
+.SousMenu span{
+    font-size: 10px;
+}
+
+.SousMenu img{
+    width: 30px;
+    height: 30px;
+}
+
+.productDetail{
+    padding: 1px;
+}
+
 
 }
