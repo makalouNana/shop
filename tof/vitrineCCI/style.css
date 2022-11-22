@@ -1,0 +1,589 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header img{
+    width: 100px;
+    height: 100px;
+    visibility: visible;
+    margin-left: 50px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.076);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.065);
+    z-index: 3;
+    background-color: white;
+}
+
+
+nav li{
+    /* background-color: darkgreen; */
+    border-radius: 20px;
+    cursor: pointer;
+    text-align: center; 
+    font-size: 1.1em;
+    font-weight: 500;
+    transition: 0.5s;
+    box-shadow: none;
+    border-bottom: none;
+    border: 0.5px solid darkgreen;
+    
+}
+nav{
+    margin-right: 190px;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+
+a{
+    color: darkgreen;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+    transition: 0.5s;
+}
+
+nav li:hover{
+ background-color: darkgreen;
+ color:rgba(255, 255, 255, 0.932) ;
+   
+}
+
+nav a:hover{
+ color:rgba(255, 255, 255, 0.932) ;
+}
+
+/****decoration*******/
+.intro {
+  display: flex;
+  margin-top: 100px;  
+  height: auto;
+  overflow-x: auto;
+}
+
+.intro::-webkit-scrollbar{
+  width: 0px;
+}
+.quran{
+    min-width: 100%;
+    height: auto;
+    color: white;
+    padding: 100px;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color: darkgreen;
+}
+
+.sunna{
+  min-width: 100%;
+  height: auto;  
+ 
+  background-color: white;
+  text-align: center;
+  padding: 100px;
+  margin-top: 20px;
+  border-radius: 20px;
+  color: darkgreen;
+}
+
+.quran p , .sunna p{
+    padding: 20px;
+    font-size: 30px;
+}
+
+
+
+/* ***************midle *****************/
+.midle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Notrehistoire{
+    width: 50%;
+    height: min-content;
+    
+}
+
+.Notrehistoire h1{
+    font-weight: bold;
+    font-size: 65px;
+}
+
+.Notrehistoire p{
+    font-size: 25px;
+}
+
+.lien{
+    padding: 30px 0;
+    font-size: 25px;
+}
+
+.lien a{
+    color: white;
+    font-weight: 500;
+    background-color: darkgreen;
+    border-radius: 20px;
+    border: none;
+}
+
+.lien a:hover{
+    color: darkgreen;
+    background-color:white;
+    transition: 1s;
+    border-radius: 10px;
+    padding: 5px 20px;
+    border: 0.5px solid;
+}
+
+
+/* ****************commission******************** */
+.commission{
+    display: flex;
+    justify-content: space-around;
+}
+.single{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    border: 1px rgba(0, 0, 0, 0.269) solid;
+    border-radius: 2%;
+    padding: 10px 30px;
+    margin: 20px;
+}
+
+.single h2{
+    color: darkgreen;
+}
+
+
+.single:hover h2{
+    color: white;
+}
+
+.single:hover{
+    background-color: darkgreen;
+    color: white;
+    box-shadow: 1px 1px 20px black;
+    transition: ease-in-out 0.3s;
+    border: none;
+}
+
+.single h1{
+    opacity: 0.3;
+    font-size: 50px;
+}
+
+.single h2{
+    margin: 10px 0px;
+    font-weight: bold;
+    font-size: 25px;
+
+}
+
+
+/************Contact Us*****************/
+
+.contact{
+    background:linear-gradient( #FFF ,#006400 );
+    min-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin-bottom: 50px;
+    
+}
+
+.titreContact{
+    max-width: 50%;
+    text-align: center;
+    margin:40px 0px;
+}
+
+.contactContenu{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.contactForm{
+    position: relative;
+    width: 40%; 
+    background-color: white;
+    padding: 60px;
+}
+.contactInfo{
+    position: relative;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+.box{
+    display: flex;
+    width: 50%;
+    cursor: pointer;
+}
+
+.icon{
+   width: 50px;
+   height: 50px;
+   background-color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   transition: 0.4s;
+   margin-right: 10px;
+   margin-bottom: 10px;
+}
+
+.box:hover .icon{
+    background-color:green ;
+}
+
+.text h3{
+    font-size: 1.3em;
+    color:green;
+}
+
+.reseauIcon{
+    display: flex;
+    gap: 20px;
+}
+
+li{
+    list-style: none;
+}
+
+.reseauIcon li a{
+    font-size: 2em;
+    color: rgba(0, 0, 0, 0.573);
+    transition: 1s;
+}
+
+.reseauIcon li a:hover{
+    color: white;
+}
+
+.reseaux h1{
+    border-left: 50px solid rgb(245, 34, 69);
+    font-size: 1.1em;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+
+/*******************contact form****************************/
+.contactForm h2{
+ font-size: 2em;
+ color: #333;
+}
+
+.inputBox{
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.inputBox input , .inputBox textarea{
+    position: relative;
+    width: 100%;
+    margin: 10px 0;
+    padding: 5px 0;
+    font-size: 1.1em;
+    border: none;
+    border-bottom: 1px solid #333;
+    outline: none;
+    resize: none;
+}
+
+.inputBox span
+{ 
+    position: absolute;
+    left: 0%;
+    font-size: 1.1em;
+    pointer-events: none;
+    color: #666;
+    padding: 5px 0px;
+    margin: 10px 0px;
+    transition: 1s;
+}
+
+
+.inputBox input:focus ~ span,
+.inputBox textarea:focus ~ span,
+.inputBox input:valid ~ span,
+.inputBox textarea:valid ~ span{
+    color: aqua;
+    transform: translateY(-25px);
+    font-size: 0.9em;
+}
+
+.inputBox input[type="submit"]{
+    width: 100px;
+    background-color: darkgreen;
+    border-radius: 20px;
+    cursor: pointer;
+    text-align: center;
+    padding: 10px;
+    font-size: 1.1em;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.932);
+    transition: 0.5s;
+    box-shadow: none;
+    border-bottom: none;
+}
+
+.inputBox input[type="submit"]:hover{
+    background-color:rgba(255, 255, 255, 0.932);
+    color: darkgreen;
+    border: 0.5px solid;
+    
+}
+
+
+
+
+/***Résponsive**/
+/***Corps**/
+
+
+/**Footer**/
+@media (max-width: 900px){
+
+
+    .single{
+        width: 45%;
+    }
+  .contactContenu{
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .contactInfo{
+    width: 90%;
+    margin: 0 50px;
+
+
+  }
+  .contactForm{
+    width: 90%;
+    margin: 0 100px ;
+    
+  }
+
+  .midle{
+    flex-direction: column-reverse;
+}
+.Notrehistoire, .imgHistoire{
+    width: 100%;
+    padding: 0px 20px;
+}
+.commission{
+    flex-wrap: wrap;
+    gap: 2px;
+}
+}
+
+
+
+@media (max-width: 838px){
+    .single{
+        width: 90%;
+    }
+
+}
+
+
+
+                                            /****PARTIE EVENEMENTS**/
+
+  
+.evenementContenu{
+    background-color: rgba(211, 211, 211, 0.596);
+    /* height: 200vh; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 130px;
+}
+.blocEvenements{
+     display: flex;
+     width: 90%;
+     justify-content: center;
+     background-color: white;
+    margin: 25px 0px;
+     gap: 20px;
+     font-size: 1.1em;
+     max-height: 300px;
+     overflow-y: hidden;
+     border-radius: 20px 0 20px 0;
+     box-shadow: 5px 
+     5px 20px rgb(211, 211, 211);
+     
+}
+ 
+
+.blocImg img{
+   width: 100%;
+}
+
+
+.blocImg{
+    width: 50%;
+}
+.blocText{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 50%;
+    padding: 20px;
+}
+
+.blocText h1{
+    font-weight: 800;
+    font-size: 2em;
+    padding: 20px 0px;
+    color: #006400;
+}
+
+.blocText p{
+    font-weight: 500;
+    font-size: 1.2em;
+}
+
+.blocText h1:hover{
+   font-style: italic;
+}
+
+/************Evenemments******/
+.titrePrincipalPresentation{
+    text-align: center;
+    min-height: 200px;
+    max-height: 400px;
+    background-image: url("./img/logo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: #006400;
+    padding-top: 10px;
+    margin-top: 120px; 
+    color: white;
+}
+
+
+.corpsPresentation h1{
+    color: #006400;
+    padding: 20px 0;
+}
+
+.corpsPresentation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.partiePresentation{
+    width: 70%;
+    text-align: justify;
+    font-size: 1.1em;
+    font-weight: 400;
+}
+
+
+.corpsPresentation div h3{
+    color: darkred;
+    padding: 10px 0;
+}
+
+
+.valeurs{
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+    background-color: rgba(51, 51, 51, 0.057);
+    margin: 10px 0;
+    border: 0.2px solid rgba(128, 128, 128, 0.095);
+}
+
+.valeurs h4{
+    padding: 0px 0px 10px 0;
+    color: #006400;
+  
+}
+
+.valeurIcon{
+    font-size: 70px;
+    color: #006400;
+}
+
+
+
+
+
+
+/*****footer des autres*****/
+
+.footer{
+    display: flex;
+    justify-content: center;
+    min-height: 300px;
+    gap: 150px;
+    padding: 70px 0; 
+    background-color: #006400;
+}
+
+.ligneFooter{
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+}
+
+.sousFooter{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 1.6em;
+   color: white;
+   font-size: 1.1em;  
+   font-weight: 100;  
+}
+
+.sousFooter h1{
+    color: white;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+
+.sousFooter h1:hover{
+    color: darkred;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.ligneFooter:hover {
+     color: darkred;
+     cursor: pointer;
+     transition: 0.3s;
+}
+
+
