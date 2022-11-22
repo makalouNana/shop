@@ -329,3 +329,20 @@ i{
    .Avalaible{
     box-shadow: none !important;
    }
+
+
+   
+@media (max-width: 800px){
+ .singleProduct{
+    width: 80%;
+ }
+ .option{
+    width: 90%;
+ }
+ .SousMenu{
+    position: fixed;
+    right: 20px;
+    top: 75px;
+}
+
+}
