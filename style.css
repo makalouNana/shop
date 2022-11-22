@@ -303,3 +303,29 @@ i{
      background-position: center;
    }
    /*****************/
+
+   .Body{
+     background-color:#232222;
+    color:#F3F3F3 ;
+   }
+
+   .ProductImage{
+    background-color: white;
+   }
+   .SingleProduct{
+     box-shadow: none;   
+   }
+
+   .ProductDetail{
+    background-color: #A4A4A44D;
+    border-radius: 0 20px 20px 0;
+   }
+
+   .bouttons{
+    background-color: #A4A4A44D;
+    box-shadow: none !important;
+   }
+
+   .Avalaible{
+    box-shadow: none !important;
+   }
