@@ -33,19 +33,28 @@
                 SousMenu.children[4].children[1].textContent='Dark'
                     
                 SousMenu.children[4].children[0].innerHTML =
-                    `<img src="./tof/Iconnuit.png" alt="cd">`
+                    `<img src="./tof/Iconnuit.png" alt="cd">
+                    <span class="bulles" style="background-color: rgb(50, 50, 185);">8</span>
+                    `
                 
                     SousMenu.children[2].children[0].innerHTML =
-                    `<img src="./tof/IconcarN.png" alt="dc">`
+                    `<img src="./tof/IconcarN.png" alt="dc">
+                    <span class="bulles" style="background-color: rgb(50, 50, 185);">8</span>
+                    `
+                    
                     nuit = false      
            }else{
             SousMenu.children[4].children[1].textContent='Light'
                     
                     SousMenu.children[4].children[0].innerHTML =
-                        `<img src="./tof/Iconlit.png" alt="cd">`
+                        `<img src="./tof/Iconlit.png" alt="cd">
+                        <span class="bulles" style="background-color: rgb(50, 50, 185);">8</span>
+                        `
                     
                         SousMenu.children[2].children[0].innerHTML =
-                        `<img src="./tof/Iconsop.png" alt="dc">`
+                        `<img src="./tof/Iconsop.png" alt="dc">
+                        <span class="bulles" style="background-color: rgb(50, 50, 185);">8</span>
+                        `
                         nuit = true    
            }
   })

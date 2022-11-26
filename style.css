@@ -251,8 +251,8 @@ i{
    }
 
    .sousMenu{
-    width: max-content;
-   }
+   width: max-content;
+}
 
    .scroller , .scrolle{
     display: flex;
@@ -344,32 +344,31 @@ i{
 @media (max-width: 1150px){
  body{
     justify-content: flex-start;
+    gap: 5px;
  }
     .singleProduct{
-    width: 95%;
- }
- .option{
     width: 90%;
  }
- .SousMenu{
-    position: fixed;
-    right: 20px;
-    top: 75px;
-     width: 55px !important;
-}
+ .option{
+    width: 85%;
+    justify-content: center;
+ }
+ 
 
 .SousMenu span{
     font-size: 10px;
+   
 }
-
+/* 
 .SousMenu img{
     width: 30px;
     height: 30px;
-}
+} */
 
 .productDetail{
     padding: 1px;
 }
+
 
 
 }
