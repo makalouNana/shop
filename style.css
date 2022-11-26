@@ -347,11 +347,11 @@ i{
     gap: 5px;
  }
     .singleProduct{
-    width: 90%;
+    width: 95%;
+
  }
  .option{
     width: 85%;
-    justify-content: center;
  }
  
 
@@ -359,11 +359,10 @@ i{
     font-size: 10px;
    
 }
-/* 
-.SousMenu img{
-    width: 30px;
-    height: 30px;
-} */
+
+.SousMenu{
+    margin-top: 190px;
+} 
 
 .productDetail{
     padding: 1px;
